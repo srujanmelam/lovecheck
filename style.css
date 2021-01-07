@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    height:100vh;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+  margin: 0;
+  padding: 0;
+
+}
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: #0009;
+  line-height:80px;
+}
+nav ul li{
+  list-style-type: none;
+  display:inline-block;
+}
+nav ul {
+  float:right;
+  margin-right:30px;
+}
+nav ul li a{
+  text-decoration:none;
+  color:white;
+  padding:30px;
+}
+
+nav ul li:hover{
+  background-color: crimson;
+  transition: 0.9s all;
+}
+h1 {
+  font-family: 'Parisienne', cursive;
+  color:white;
+  font-size:50px;
+}
+p{
+  text-align:right; 
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size:20px;
+    padding:8px 0;
+    margin:0 auto;
+    
+  
+}
+.textbox i{
+  color:white;
+    width: 30px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: #0009;
+    color:white;
+    font-size: 50px;
+    width:20%;
+    
+    margin: 0 10px;
+    border-radius: 10px;
+
+}
+::placeholder {
+  color:gray;
+  opacity:1; /* Firefox */
+  text-align: center;
+  font-size: 40px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+ font-size:10px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:white;
+}
+
+.textbox button{
+  background-color: white;
+  border: none;
+  color:crimson;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 10px;
+ 
+}
+button:hover{
+  background-color:crimson;
+  color:white;
+
+}
+h3 {
+  color:white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Xanh Mono', monospace;
+}
+h3:hover {
+  color:crimson;
+}
