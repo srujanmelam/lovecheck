@@ -129,7 +129,7 @@ h3 {
 h3:hover {
   color:crimson;
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:500px){
   body h1{
     font-size: 20px;
   }
@@ -145,12 +145,12 @@ h3:hover {
 }
 nav ul {
   float:right;
-  margin-right:15px;
+  margin-right:5px;
 }
 nav ul li a{
   text-decoration:none;
   color:white;
-  padding:15px;
+  padding:1px;
 }
 .textbox{
     width: 100%;
